@@ -1,0 +1,15 @@
+//Linters check syntax and help produce consistent code by following specific style rules
+{
+	"extends": "eslint:recommended",
+	"env": {
+		"node": true,
+		"es6": true
+	},
+	"parserOptions": {
+		"ecmaVersion": 2021
+	},
+    //This is where we can define the rules
+	"rules": {
+		"semi": ["error", "always"] //Never miss a colon
+	}
+}
